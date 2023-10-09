@@ -1,9 +1,11 @@
-﻿namespace MethodsExercise
+﻿using System;
+
+namespace MethodsExercise
 {
     public class Program
     {
 
-        public int Sum(int num1, int num2)
+        public static int Sum(int num1, int num2)
         {
         var answer = num1 + num2;
             return answer;
